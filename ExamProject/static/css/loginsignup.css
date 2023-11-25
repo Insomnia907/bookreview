@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.55);
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 50px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    background: rgba(255, 255, 255, 0.45);
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+button:hover {
+    background-color: #45a049;
+}

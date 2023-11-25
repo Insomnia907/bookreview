@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("../images/homeback.jpg");
+}
+
+header {
+    background-color: rgba(30, 0, 81, 0.5);
+    text-align: center;
+    padding: 10px;
+    margin: 1% auto;
+    width: 90%;
+    border-radius: 50px;
+    height: 8vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1{
+    color: white;
+    text-align: left;
+    position: absolute;
+    margin-top: 0.5%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(30, 0, 81, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-description {
+    flex: 2;
+    background-color: rgba(52, 1, 54, 0.8);
+    padding: 10px;
+}
+
+.book-cover {
+    flex: 1;
+    text-align: center;
+}
+
+.book-reviews {
+    flex: 1;
+}
+

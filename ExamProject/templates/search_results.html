@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Search Results - Book Reviews{% endblock title%}
+
+{% block content %}
+    <div class="search-results">
+        <h2>Search Results</h2>
+        <div class="book-details">
+            <div class="book-info">
+                <h3>Title: {{ object.title }}</h3>
+                <p>Author: {{ object.author }}</p>
+            </div>
+            <div class="book-description">
+                <p>Description: {{ object.description }}</p>
+            </div>
+            <div class="book-cover">
+                <img src="{{ object.image_url }}" alt="Book Cover" style="max-width: 300px;">
+            </div>
+            <div class="book-reviews">
+                <p>Goodreads Review: {{ object.goodreads_result }}</p>
+                <p>Livelib Review: {{ object.livelib_result }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock content%}

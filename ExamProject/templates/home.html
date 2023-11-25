@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Home - Book reviews{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Book Reviews Website</h2>
+    <form action="{% url 'search_results' %}" method="get">
+        <label for="title">Book Title:</label><br>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author"><br><br>
+        <button type="submit">Search</button>
+    </form>
+{% endblock %}
